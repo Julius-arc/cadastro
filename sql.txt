@@ -1,0 +1,8 @@
+create databese cadastro
+create table universal (
+ID int not null auto_increment primary key,  
+Nome varchar(30), 
+datanasciment date,
+telefone varchar(14),
+profissao varchar(30)
+);

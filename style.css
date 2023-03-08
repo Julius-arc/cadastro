@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+#ima {
+  position: relative;
+}
+#ima img {
+  height: 99.4vh;
+  width: 100vw;
+}
+#principal {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  translation: translate;
+  text-align: center;
+  border: 5px solid #d3d3d3;
+  float: 300px;
+}
